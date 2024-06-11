@@ -1,0 +1,64 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Mon Jun 10 00:12:13 2024
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /home/oracle/Descargas/SQL_LOADER/categoria.ctl
+Data File:      /home/oracle/Descargas/SQL_LOADER/categoria.dat
+  Bad File:     /home/oracle/Descargas/SQL_LOADER/categoria.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CATEGORIA, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID_CATEGORIA                        FIRST     *   ,  O(") CHARACTER            
+NOMBRE                               NEXT     *   ,  O(") CHARACTER            
+DESCRIPCION                          NEXT     *   ,  O(") CHARACTER            
+FECHA_REG                            NEXT     *   ,  O(") DATE YYMMDD          
+FECHA_ACT                            NEXT     *   ,  O(") DATE YYMMDD          
+
+Record 2: Rejected - Error on table CATEGORIA, column FECHA_REG.
+ORA-01841: el valor (completo) del a?o debe estar entre -4713 y +9999, y no debe ser igual a 0
+
+Record 3: Rejected - Error on table CATEGORIA, column FECHA_REG.
+ORA-01841: el valor (completo) del a?o debe estar entre -4713 y +9999, y no debe ser igual a 0
+
+Record 4: Rejected - Error on table CATEGORIA, column FECHA_REG.
+ORA-01841: el valor (completo) del a?o debe estar entre -4713 y +9999, y no debe ser igual a 0
+
+Record 5: Rejected - Error on table CATEGORIA, column FECHA_REG.
+ORA-01841: el valor (completo) del a?o debe estar entre -4713 y +9999, y no debe ser igual a 0
+
+
+Table CATEGORIA:
+  6 Rows successfully loaded.
+  4 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 322500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            10
+Total logical records rejected:         4
+Total logical records discarded:        0
+
+Run began on Mon Jun 10 00:12:13 2024
+Run ended on Mon Jun 10 00:12:15 2024
+
+Elapsed time was:     00:00:01.30
+CPU time was:         00:00:00.04

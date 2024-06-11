@@ -1,0 +1,56 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Sun Jun 9 23:06:33 2024
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /home/oracle/Descargas/SQL_LOADER/usuario.ctl
+Data File:      /home/oracle/Descargas/SQL_LOADER/usuario.dat
+  Bad File:     /home/oracle/Descargas/SQL_LOADER/usuario.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table USUARIO, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID_USUARIO                          FIRST     *   ,  O(") CHARACTER            
+NOMBRES                              NEXT     *   ,  O(") CHARACTER            
+APELLIDOS                            NEXT     *   ,  O(") CHARACTER            
+DNI                                  NEXT     *   ,  O(") CHARACTER            
+EMAIL                                NEXT     *   ,  O(") CHARACTER            
+GENERO                               NEXT     *   ,  O(") CHARACTER            
+PASSWORD                             NEXT     *   ,  O(") CHARACTER            
+FECHA_REG                            NEXT     *   ,  O(") DATE YYMMDD          
+FECHA_ACT                            NEXT     *   ,  O(") DATE YYMMDD          
+
+
+Table USUARIO:
+  1000 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 580500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          1000
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Sun Jun 09 23:06:33 2024
+Run ended on Sun Jun 09 23:06:35 2024
+
+Elapsed time was:     00:00:01.51
+CPU time was:         00:00:00.02

@@ -1,0 +1,154 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Mon Jun 10 00:18:11 2024
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /home/oracle/Descargas/SQL_LOADER/detalle_pedido.ctl
+Data File:      /home/oracle/Descargas/SQL_LOADER/detalle_pedido.dat
+  Bad File:     /home/oracle/Descargas/SQL_LOADER/detalle_pedido.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table DETALLE_PEDIDO, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID_DETALLE_PEDIDO                   FIRST     *   ,  O(") CHARACTER            
+PEDIDO_ID                            NEXT     *   ,  O(") CHARACTER            
+PRODUCTO_ID                          NEXT     *   ,  O(") CHARACTER            
+CANTIDAD                             NEXT     *   ,  O(") CHARACTER            
+PRECIO                               NEXT     *   ,  O(") CHARACTER            
+
+Record 59: Rejected - Error on table DETALLE_PEDIDO, column ID_DETALLE_PEDIDO.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 60: Rejected - Error on table DETALLE_PEDIDO, column ID_DETALLE_PEDIDO.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 61: Rejected - Error on table DETALLE_PEDIDO, column ID_DETALLE_PEDIDO.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 7: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 10: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 11: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 12: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 13: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 14: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 15: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 17: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 18: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 20: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 22: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 23: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 24: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 26: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 27: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 30: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 31: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 32: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 33: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 34: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 35: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 40: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 41: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 43: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 44: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 45: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 48: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 49: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 50: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 51: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 57: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+Record 58: Rejected - Error on table DETALLE_PEDIDO.
+ORA-02291: restriccion de integridad (PROGRA.FK_DETALLE_PEDIDO_PRODUCTO) violada - clave principal no encontrada
+
+
+Table DETALLE_PEDIDO:
+  26 Rows successfully loaded.
+  35 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 322500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            61
+Total logical records rejected:        35
+Total logical records discarded:        0
+
+Run began on Mon Jun 10 00:18:11 2024
+Run ended on Mon Jun 10 00:18:13 2024
+
+Elapsed time was:     00:00:01.49
+CPU time was:         00:00:00.04

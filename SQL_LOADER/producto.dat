@@ -1,0 +1,15 @@
+1, 1, Pollo Entero, Pollo a la brasa entero, imagen_pollo.jpg, 26, 500, 230101, 230102
+2, 1, 1/4 de Pollo, 1/4 de pollo a la brasa, imagen_pollo_quarter.jpg, 9, 1000, 230101, 230102
+3, 2, Papas Fritas, Papas fritas crujientes, imagen_papas.jpg, 4, 2000, 230101, 230102
+4, 2, Yucas Fritas, Yucas fritas y doradas, imagen_yucas.jpg, 5, 1500, 230101, 230102
+5, 3, Gaseosa, Gaseosa de cola, imagen_gaseosa.jpg, 2, 3000, 230101, 230102
+6, 3, Jugo de Naranja, Jugo de naranja natural, imagen_jugo.jpg, 3, 1000, 230101, 230102
+7, 4, Torta de Chocolate, Deliciosa torta de chocolate, imagen_torta.jpg, 16, 500, 230101, 230102
+8, 4, Helado de Vainilla, Helado cremoso de vainilla, imagen_helado.jpg, 6, 1000, 230101, 230102
+9, 5, Empanadas de Carne, Empanadas rellenas de carne, imagen_empanadas.jpg, 3, 2000, 230101, 230102
+10, 5, Anticuchos de Pollo, Anticuchos de pollo marinados, imagen_anticuchos.jpg, 4, 1500, 230101, 230102
+11, 6, Parrillada Especial, Combinación de carnes a la parrilla, imagen_parrillada.jpg, 30, 500, 230101, 230102
+12, 7, Ensalada César, Ensalada fresca con aderezo especial, imagen_ensalada.jpg, 9, 800, 230101, 230102
+13, 8, Sopa de Pollo, Sopa de pollo casera, imagen_sopa.jpg, 7, 600, 230101, 230102
+14, 9, Parrillada Mixta, Variedad de carnes y chorizos a la parrilla, imagen_parrillada_mixta.jpg, 36, 400, 230101, 230102
+15, 10, Ceviche Mixto, Ceviche de pescado y mariscos frescos, imagen_ceviche.jpg, 41, 400, 230101, 230102

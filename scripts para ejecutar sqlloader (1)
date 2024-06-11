@@ -1,0 +1,26 @@
+PARA USUARIO:
+sqlldr userid =progra/Oracle1234@orcl control=/home/oracle/Descargas/SQL_LOADER/usuario.ctl data=/home/oracle/Descargas/SQL_LOADER/usuario.dat log=/home/oracle/Descargas/SQL_LOADER/usuario.log
+
+PARA ROL:
+sqlldr userid =progra/Oracle1234@orcl control=/home/oracle/Descargas/SQL_LOADER/rol.ctl data=/home/oracle/Descargas/SQL_LOADER/rol.dat log=/home/oracle/Descargas/SQL_LOADER/rol.log
+
+PARA USUARIO_ROL:
+sqlldr userid =progra/Oracle1234@orcl control=/home/oracle/Descargas/SQL_LOADER/usuario_rol.ctl data=/home/oracle/Descargas/SQL_LOADER/usuario_rol.dat log=/home/oracle/Descargas/SQL_LOADER/usuario_rol.log
+
+PARA CATEGORÍA:
+sqlldr userid =progra/Oracle1234@orcl control=/home/oracle/Descargas/SQL_LOADER/categoria.ctl data=/home/oracle/Descargas/SQL_LOADER/categoria.dat log=/home/oracle/Descargas/SQL_LOADER/categoria.log
+
+PARA PRODUCTO:
+sqlldr userid =progra/Oracle1234@orcl control=/home/oracle/Descargas/SQL_LOADER/producto.ctl data=/home/oracle/Descargas/SQL_LOADER/producto.dat log=/home/oracle/Descargas/SQL_LOADER/producto.log
+
+PARA PROFORMA:
+sqlldr userid =progra/Oracle1234@orcl control=/home/oracle/Descargas/SQL_LOADER/proforma.ctl data=/home/oracle/Descargas/SQL_LOADER/proforma.dat log=/home/oracle/Descargas/SQL_LOADER/proforma.log
+
+PARA PAGO:
+sqlldr userid =progra/Oracle1234@orcl control=/home/oracle/Descargas/SQL_LOADER/pago.ctl data=/home/oracle/Descargas/SQL_LOADER/pago.dat log=/home/oracle/Descargas/SQL_LOADER/pago.log
+
+PARA PEDIDO:
+sqlldr userid =progra/Oracle1234@orcl control=/home/oracle/Descargas/SQL_LOADER/pedido.ctl data=/home/oracle/Descargas/SQL_LOADER/pedido.dat log=/home/oracle/Descargas/SQL_LOADER/pedido.log
+
+PARA DETALLE_PEDIDO:
+sqlldr userid =progra/Oracle1234@orcl control=/home/oracle/Descargas/SQL_LOADER/detalle_pedido.ctl data=/home/oracle/Descargas/SQL_LOADER/detalle_pedido.dat log=/home/oracle/Descargas/SQL_LOADER/detalle_pedido.log

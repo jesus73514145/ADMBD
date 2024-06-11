@@ -1,0 +1,204 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Mon Jun 10 00:14:49 2024
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /home/oracle/Descargas/SQL_LOADER/proforma.ctl
+Data File:      /home/oracle/Descargas/SQL_LOADER/proforma.dat
+  Bad File:     /home/oracle/Descargas/SQL_LOADER/proforma.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table PROFORMA, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID_PROFORMA                         FIRST     *   ,  O(") CHARACTER            
+USUARIO_ID                           NEXT     *   ,  O(") CHARACTER            
+PRODUCTO_ID                          NEXT     *   ,  O(") CHARACTER            
+CANTIDAD                             NEXT     *   ,  O(") CHARACTER            
+PRECIO                               NEXT     *   ,  O(") CHARACTER            
+STATUS                               NEXT     *   ,  O(") CHARACTER            
+FECHA_REG                            NEXT     *   ,  O(") DATE YYMMDD          
+
+Record 5: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 11: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 13: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 14: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 17: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 19: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 20: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 21: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 22: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 23: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 25: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 27: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 28: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 29: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 31: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 33: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 38: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 39: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 42: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 43: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 47: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 48: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 51: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 52: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 53: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 54: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 55: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 56: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 58: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 67: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 68: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 70: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 71: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 72: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 73: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 76: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 77: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 78: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 80: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 81: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 86: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 90: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 91: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 92: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 93: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 94: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 96: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 97: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 98: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+Record 99: Rejected - Error on table PROFORMA.
+ORA-02291: restriccion de integridad (PROGRA.FK_PROFORMA_PRODUCTO) violada - clave principal no encontrada
+
+
+Table PROFORMA:
+  50 Rows successfully loaded.
+  50 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 451500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           100
+Total logical records rejected:        50
+Total logical records discarded:        0
+
+Run began on Mon Jun 10 00:14:49 2024
+Run ended on Mon Jun 10 00:14:50 2024
+
+Elapsed time was:     00:00:01.43
+CPU time was:         00:00:00.03

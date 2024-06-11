@@ -1,0 +1,11 @@
+ID_CATEGORIA,NOMBRE,DESCRIPCION,FECHA_REG,FECHA_ACT
+1,Pollo a la Brasa,Pollo asado a la parrilla,2023-01-01,2023-01-02
+2,Acompañamientos,"Papas fritas, yucas, ensaladas",2023-01-01,2023-01-02
+3,Bebidas,"Gaseosas, jugos naturales",2023-01-01,2023-01-02
+4,Postres,"Tortas, helados, postres varios",2023-01-01,2023-01-02
+5,Entradas,"Empanadas, anticuchos, tequeños",2023-01-01,2023-01-02
+6,Platos Especiales,Platos especiales de la casa,2023-01-01,2023-01-02
+7,Ensaladas,Ensaladas frescas y saludables,2023-01-01,2023-01-02
+8,Sopas,Sopas caseras y reconfortantes,2023-01-01,2023-01-02
+9,Parrillas,Variedad de carnes a la parrilla,2023-01-01,2023-01-02
+10,Mariscos,Platos de mariscos frescos,2023-01-01,2023-01-02

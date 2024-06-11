@@ -1,0 +1,88 @@
+@D:\05062024\crear.sql    // PARA CREAR UN USUARIO
+
+@D:\05062024\tablas.sql  // PARA CREAR LAS TABLAS
+
+@D:\05062024\usuarios.sql  // PARA INSERTAR DATOS A LA TABLA USUARIO
+
+@D:\05062024\roles.sql  // PARA INSERTAR DATOS A LA TABLA ROL
+
+@D:\05062024\usuario_rol.sql // PARA INSERTAR DATOS A LA TABLA USUARIO_ROL
+
+@D:\05062024\categoria.sql // PARA INSERTAR DATOS A LA TABLA CATEGORIA
+
+@D:\05062024\producto.sql // PARA INSERTAR DATOS A LA TABLA PRODUCTO
+
+@D:\05062024\proforma.sql // PARA INSERTAR DATOS A LA TABLA PROFORMA
+
+@D:\05062024\pago.sql // PARA INSERTAR DATOS A LA TABLA PAGO
+
+@D:\05062024\pedido.sql // PARA INSERTAR DATOS A LA TABLA PEDIDO
+
+@D:\05062024\detalle_pedido.sql // PARA INSERTAR DATOS A LA TABLA DETALLE_PEDIDO
+
+
+@/home/oracle/Descargas/05062024/      // poner esto en el terminal de la maquina virtual de oracle linux
+
+
+-- Listar tablas del usuario
+SELECT table_name FROM user_tables;
+
+-- Eliminar tablas con restricciones asociadas
+DROP TABLE DETALLE_PEDIDO CASCADE CONSTRAINTS;
+DROP TABLE PROFORMA CASCADE CONSTRAINTS;
+DROP TABLE PRODUCTO CASCADE CONSTRAINTS;
+DROP TABLE CATEGORIA CASCADE CONSTRAINTS;
+
+
+3. Consultar los pedidos realizados por un usuario específico:
+
+SELECT p.*, d.*
+FROM PEDIDO p JOIN DETALLE_PEDIDO d ON p.ID_PEDIDO = d.PEDIDO_ID WHERE p.USUARIO_ID = :id_usuario; -- Reemplaza :id_usuario con el ID del usuario específico
+
+4. Consultar el total pagado por cada usuario:
+
+SELECT u.NOMBRES, u.APELLIDOS, SUM(pa.MONTO_TOTAL) AS TOTAL_PAGADO FROM USUARIO u JOIN PAGO pa ON u.ID_USUARIO = pa.USUARIO_ID GROUP BY u.NOMBRES, u.APELLIDOS;
+
+5. Consultar el detalle de un pedido específico:
+
+SELECT dp.*, p.NOMBRE AS NOMBRE_PRODUCTO, p.PRECIO AS PRECIO_UNITARIO
+FROM DETALLE_PEDIDO dp
+JOIN PRODUCTO p ON dp.PRODUCTO_ID = p.ID_PRODUCTO
+WHERE dp.PEDIDO_ID = :id_pedido; -- Reemplaza :id_pedido con el ID del pedido específico
+
+6. Consultar los productos que están agotados:
+
+SELECT *
+FROM PRODUCTO
+WHERE STOCK = 0;
+
+7. Consultar el total de ventas por categoría de producto:
+ 
+SELECT c.NOMBRE AS CATEGORIA, SUM(dp.PRECIO * dp.CANTIDAD) AS TOTAL_VENTAS
+FROM DETALLE_PEDIDO dp
+JOIN PRODUCTO p ON dp.PRODUCTO_ID = p.ID_PRODUCTO
+JOIN CATEGORIA c ON p.CATEGORIA_ID = c.ID_CATEGORIA
+GROUP BY c.NOMBRE;
+
+8. Consultar los usuarios que no han realizado ningún pedido:
+
+SELECT u.*
+FROM USUARIO u
+LEFT JOIN PEDIDO p ON u.ID_USUARIO = p.USUARIO_ID
+WHERE p.ID_PEDIDO IS NULL;
+
+9. Consultar los pedidos que se han realizado en un rango de fechas específico:
+
+
+SELECT *
+FROM PEDIDO
+WHERE FECHA_REG BETWEEN TO_DATE('2023-01-01', 'YYYY-MM-DD') AND TO_DATE('2023-12-31', 'YYYY-MM-DD');
+
+
+10.    Consultar los usuarios que tienen un rol específico:
+
+SELECT u.*, r.NOMBRE AS ROL
+FROM USUARIO u
+JOIN USUARIO_ROL ur ON u.ID_USUARIO = ur.USUARIO_ID
+JOIN ROL r ON ur.ROL_ID = r.ID_ROL
+WHERE r.NOMBRE = 'Administrador'; -- Reemplaza 'Administrador' con el nombre del rol específico
